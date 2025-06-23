@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Table Example</title>
+  <!-- <link rel="stylesheet" href="tablestyle.css"> -->
+</head>
+<body>
+
+  <div id="table1">
+  <h2>Student Information Table</h2>
+  <table border="3px" bordercolor="red">
+    <thead>
+      <tr>
+        <th>Sr. No</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Pranav</td>
+        <td>MCA</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Rahul</td>
+        <td>BCA</td>
+        <td>78</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Riya</td>
+        <td>BBA</td>
+        <td>92</td>
+      </tr>
+    </tbody>
+    </div>
+  </table>
+
+  <br>
+
+  <!-- Fixed nested table issue and applied red border -->
+  <table border="3" bordercolor="red">
+    <thead>
+      <tr>
+        <th colspan="3">Student Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Phone No</th>
+      </tr>
+      <tr>
+        <td>Pranav</td>
+        <td>63</td>
+        <td rowspan="4">9022711058</td>
+      </tr>
+      <tr>
+        <td>Om</td>
+        <td>33</td>
+        <!-- <td>9022711058</td> -->
+      </tr>
+      <tr>
+        <td>Vijay</td>
+        <td>55</td>
+        <!-- <td rowspan="2">9022711058</td> -->
+      </tr>
+      <tr>
+        <td>Mayur</td>
+        <td>34</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+
+</body>
+</html>
+ <table border="3" cellpadding="30" bordercolor="red">
+    <thead>
+      <tr>
+        <th colspan="6">Time table</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="6">Hourse</th>
+        <th>mon</th>
+        <th>tues</th>
+        <th>wed</th>
+        <th>thrus</th>
+        <th>fri </th>
+      </tr>
+      <tr>
+        <td>science</td>
+        <td>maths</td>
+        <td>maths</td>
+        <td>maths</td>
+        <td>maths</td>
+    </tr>
+    <tr>
+       <td>maths</td>
+       <td>maths</td>
+       <td>maths</td>
+       <td>maths</td>
+       <td>maths</td>
+    </tr>
+    <tr>
+       <th colspan="5">Lunch</th>
+    </tr>
+    <tr>
+         <td>maths</td>
+         <td>maths</td>
+         <td>maths</td>
+         <td>maths</td>
+          <td rowspan="2">maths2</td>
+         
+    </tr>
+    <tr>
+         <td>maths</td>
+         <td>maths</td>
+         <td>maths</td>
+         <td>maths</td>
+    </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+
+
