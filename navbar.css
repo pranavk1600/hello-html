@@ -1,0 +1,35 @@
+/* Navbar styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: whitesmoke;
+    overflow: hidden;
+    margin: 0;
+}
+.nav-links {
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    position: relative;
+    left: 1000px;
+    gap: 20px;
+    color: black;   
+}
+a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.search-container{
+    position: relative;
+    left: 1050px;
+    top: 11px;
+    border-radius: 5px;
+}
+.header{
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Transition Types</title>
+<style>
+  body {font-family:sans-serif;padding:20px}
+  h4   {margin:6px 0}
+  /* shared look */
+  .box{
+    width:80px;height:80px;margin:8px 0;
+    background:#ff9800;color:#fff;line-height:80px;text-align:center;
+    transition:transform .6s;          /* duration 0.6 s */
+  }
+  .box:hover{transform:translateX(200px)}
+
+  /* only the timing‑function changes */
+  .linear      {transition-timing-function:linear}
+  .ease        {transition-timing-function:ease}
+  .ease-in     {transition-timing-function:ease-in}
+  .ease-out    {transition-timing-function:ease-out}
+  .ease-in-out {transition-timing-function:ease-in-out}
+  .bezier      {transition-timing-function:cubic-bezier(.68,-0.55,.27,1.55)}
+</style>
+</head>
+<body>
+
+<h4>linear</h4>        <div class="box linear">box</div>
+<h4>ease</h4>          <div class="box ease">box</div>
+<h4>ease-in</h4>       <div class="box ease-in">box</div>
+<h4>ease-out</h4>      <div class="box ease-out">box</div>
+<h4>ease-in-out</h4>   <div class="box ease-in-out">box</div>
+<h4>cubic‑bezier</h4>  <div class="box bezier">box</div>
+
+</body>
+</html>

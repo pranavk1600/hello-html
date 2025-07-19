@@ -1,0 +1,21 @@
+div {
+  font-family: Arial;
+  margin-bottom: 20px;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid #333;
+  background-color: lightblue;
+}
+
+.content-box {
+  width: 200px;
+  box-sizing: content-box;
+  /* max-width: 300px; */
+  /* min-width: 100px; */
+  /* word-wrap:wrap; */
+}
+
+.border-box {
+  width: 200px;
+  box-sizing: border-box;
+}

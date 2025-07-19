@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+body{
+    color: blanchedalmond;
+    /* background-image: url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=');   */
+    background-size: cover;            
+    background-position: center;       
+    background-repeat: no-repeat 
+}
+#sk{
+    color: brown;
+    /* background-color:aqua ; */
+   
+}
+.pk{
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.mk{
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.vg{
+     background-color:black;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.as{
+    background-color:black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.hn{
+    background-color:black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}.rs{
+    background-color:black;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+}.sc{
+    background-color:black;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+}.jb{
+    background-color:black;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+#manu .btn{
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: blue;
+    background-color: azure;
+    border-radius: 30px;
+    box-shadow: 2px 2px black;
+    font-size: large;
+     cursor: pointer; 
+     text-align: center;
+    background-image: url("image/pranav.png");  
+    background-size: contain;            
+    background-position: center;       
+    /* background-repeat: no-repeat  */
+
+}
+#sup{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#khana{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 400px;
+    border: 5px dashed black;
+    align-items: center;
+    margin: auto;
+    padding: 100px;
+}

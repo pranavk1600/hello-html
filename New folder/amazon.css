@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  /* padding: 10px 20px; */
+  gap: 50px;
+  /* justify-content:space-between */
+} 
+
+.navbar-logo img {
+    width: 129.73px;
+   height: 50px; 
+   margin: 1px;
+   padding: 1px 8px 0px 6px;
+   margin-left: 11px; 
+   margin-top: 20px;
+}
+ .navbar-location {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.location{
+    font-weight: 158px;
+    line-height: 16px;;
+    
+}
+.navbar-search {  
+  display: flex;
+  height: 40px;
+  margin: 0px 6px;
+  /* width: fit-content; */
+  /* padding: 15px 4px 15px 3px; */
+}
+
+.search-category {
+  /* padding: 5px; */
+  width: 199px;
+  border: none;
+  opacity: 0.8;
+  border-radius: 5px 0 0 5px;
+}
+ 
+
+.navbar-search input {
+  width: 400px;
+  padding: 6px;
+  border: none;
+}
+
+.navbar-search button {
+  padding: 6px 4px;
+  background-color: rgb(250, 196, 95);
+  width: 45px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0
+}
+
+.options {
+  display: flex;
+  align-items: center;
+
+}
+.india{
+    display: flex;
+    align-items: center;
+    height: 10px;
+
+}
+.navbar-signin {
+  display: flex;
+  align-items: center;
+
+}
+.navbar-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+
+}
+.navbar-cart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+}
+.hello {
+  font-size: 12px;
+  color: white;
+  margin-right: 10px;
+}
+.returns {
+  font-size: 12px;
+  color: white;
+  margin-right: 10px;
+}
+.navbar-cart {
+  display: flex;
+  align-items: center;
+} 
+
+.cart-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.returns {
+  font-size: 18px;
+}
